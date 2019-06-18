@@ -1,0 +1,24 @@
+/*common nav styles*/
+.parent{
+    height: 190px;
+    background-color:#11122b;
+    color: #cbcbcb;
+    /*Flexbox container*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 23px;
+
+}
+
+.aword{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
